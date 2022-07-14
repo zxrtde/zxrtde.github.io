@@ -1,0 +1,76 @@
+@import "../main.scss";
+@import "../../../index.scss";
+
+.talks-container {
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+  .talks-grid {
+    display: grid;
+
+    .talk {
+      background: #f5f8fd;
+      padding: 1.2rem;
+      border-radius: 2rem;
+      display: grid;
+      grid-template-columns: 40% 55%;
+      gap: 5%;
+      width: 84.5%;
+      margin: 0 auto 30px;
+
+      .talk-video {
+        iframe {
+          width: 100%;
+          height: 100%;
+          border-radius: 0.6rem;
+        }
+      }
+      .talk-details {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .conference-link {
+          display: flex;
+          flex-direction: column;
+          float: right;
+          p {
+            float: right;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .talks-container {
+    margin-right: 4em;
+    margin-left: 4em;
+  }
+}
+
+@media (max-width: 600px) {
+  .talks-container {
+    margin-right: 2em;
+    margin-left: 2em;
+
+    .talks-grid {
+      .talk {
+        width: 100%;
+        grid-template-columns: 100%;
+        padding-bottom: 1.65rem;
+        height: auto;
+        .talk-details {
+          .conference-link {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}

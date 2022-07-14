@@ -1,0 +1,50 @@
+@import "../../../../index.scss";
+@import "../../main.scss";
+@import "../publications.scss";
+
+.filters-container {
+  margin: 0 auto 2.2rem;
+  width: 60%;
+
+  .filters-list {
+    list-style: none;
+    text-align: center;
+    background: $color-white;
+    border-radius: 50px;
+    padding: 0.15em 0.8em;
+
+    li {
+      cursor: pointer;
+      display: inline-block;
+      padding: 10px 15px 8px 15px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      text-transform: uppercase;
+      color: $color-text;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
+
+      &.active,
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 600px) {
+  .filters-container {
+    width: 100%;
+
+    .filters-list {
+      li {
+        padding: 10px 10px 8px 10px;
+      }
+    }
+  }
+}

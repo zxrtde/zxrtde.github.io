@@ -1,0 +1,33 @@
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600&display=swap");
+
+$color-text: #272829;
+$color-bg: #040b14;
+$color-primary: #149ddd;
+$color-primary-variant: #37b3ed;
+$color-primary-light: #2eafec;
+$color-white: #fff;
+$color-text-light: #f8f9fa;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: $color-text;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  &:hover {
+    color: $color-primary-variant; /* color-primary-variant */
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}

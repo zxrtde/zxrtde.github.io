@@ -1,0 +1,66 @@
+@import "../../../index.scss";
+@import "../header.scss";
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap");
+
+.profile {
+  img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+
+    a,
+    a:hover {
+      color: $color-white;
+      text-decoration: none;
+    }
+  }
+
+  .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: $color-white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+
+    &:hover {
+      background: $color-primary;
+      color: $color-white;
+      text-decoration: none;
+    }
+
+    &.dblp {
+      background: url("../../../assets/dblp.png") no-repeat center center /
+        contain;
+      background-position: center center;
+      background-color: #212431;
+      background-size: 23px 23px;
+
+      &:hover {
+        background: url("../../../assets/dblp.png") no-repeat center center /
+          contain;
+        background-position: center center;
+        background-color: $color-primary;
+        background-size: 23px 23px;
+      }
+    }
+  }
+}

@@ -1,0 +1,193 @@
+@article{DBLP:journals/corr/abs-2201-05674,
+  author    = {Simon Apers and
+               Yuval Efron and
+               Pawel Gawrychowski and
+               Troy Lee and
+               Sagnik Mukhopadhyay and
+               Danupon Nanongkai},
+  title     = {Cut query algorithms with star contraction},
+  journal   = {CoRR},
+  volume    = {abs/2201.05674},
+  year      = {2022}
+}
+
+@inproceedings{DBLP:conf/stoc/DoryEMN21,
+  author    = {Michal Dory and
+               Yuval Efron and
+               Sagnik Mukhopadhyay and
+               Danupon Nanongkai},
+  title     = {Distributed weighted min-cut in nearly-optimal time},
+  booktitle = {{STOC}},
+  pages     = {1144--1153},
+  publisher = {{ACM}},
+  year      = {2021}
+}
+
+@article{DBLP:journals/tit/YohananovEY20,
+  author    = {Lev Yohananov and
+               Yuval Efron and
+               Eitan Yaakobi},
+  title     = {Double and Triple Node-Erasure-Correcting Codes Over Complete Graphs},
+  journal   = {{IEEE} Trans. Inf. Theory},
+  volume    = {66},
+  number    = {7},
+  pages     = {4089--4103},
+  year      = {2020}
+}
+
+@inproceedings{DBLP:conf/opodis/AnconaCDEW20,
+  author    = {Bertie Ancona and
+               Keren Censor{-}Hillel and
+               Mina Dalirrooyfard and
+               Yuval Efron and
+               Virginia Vassilevska Williams},
+  title     = {Distributed Distance Approximation},
+  booktitle = {{OPODIS}},
+  series    = {LIPIcs},
+  volume    = {184},
+  pages     = {30:1--30:17},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year      = {2020}
+}
+
+@inproceedings{DBLP:conf/podc/Balliu0EHMOS20,
+  author    = {Alkida Balliu and
+               Sebastian Brandt and
+               Yuval Efron and
+               Juho Hirvonen and
+               Yannic Maus and
+               Dennis Olivetti and
+               Jukka Suomela},
+  title     = {Brief Announcement: Classification of Distributed Binary Labeling
+               Problems},
+  booktitle = {{PODC}},
+  pages     = {349--351},
+  publisher = {{ACM}},
+  year      = {2020}
+}
+
+@inproceedings{DBLP:conf/podc/EfronGK20,
+  author    = {Yuval Efron and
+               Ofer Grossman and
+               Seri Khoury},
+  title     = {Beyond Alice and Bob: Improved Inapproximability for Maximum Independent
+               Set in {CONGEST}},
+  booktitle = {{PODC}},
+  pages     = {511--520},
+  publisher = {{ACM}},
+  year      = {2020}
+}
+
+@inproceedings{DBLP:conf/wdag/Balliu0EHMOS20,
+  author    = {Alkida Balliu and
+               Sebastian Brandt and
+               Yuval Efron and
+               Juho Hirvonen and
+               Yannic Maus and
+               Dennis Olivetti and
+               Jukka Suomela},
+  title     = {Classification of Distributed Binary Labeling Problems},
+  booktitle = {{DISC}},
+  series    = {LIPIcs},
+  volume    = {179},
+  pages     = {17:1--17:17},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year      = {2020}
+}
+
+@article{DBLP:journals/corr/abs-2003-07427,
+  author    = {Yuval Efron and
+               Ofer Grossman and
+               Seri Khoury},
+  title     = {Beyond Alice and Bob: Improved Inapproximability for Maximum Independent
+               Set in {CONGEST}},
+  journal   = {CoRR},
+  volume    = {abs/2003.07427},
+  year      = {2020}
+}
+
+@article{DBLP:journals/corr/abs-2004-09129,
+  author    = {Michal Dory and
+               Yuval Efron and
+               Sagnik Mukhopadhyay and
+               Danupon Nanongkai},
+  title     = {Distributed Weighted Min-Cut in Nearly-Optimal Time},
+  journal   = {CoRR},
+  volume    = {abs/2004.09129},
+  year      = {2020}
+}
+
+@article{DBLP:journals/corr/abs-2011-05066,
+  author    = {Bertie Ancona and
+               Keren Censor{-}Hillel and
+               Mina Dalirrooyfard and
+               Yuval Efron and
+               Virginia Vassilevska Williams},
+  title     = {Distributed Distance Approximation},
+  journal   = {CoRR},
+  volume    = {abs/2011.05066},
+  year      = {2020}
+}
+
+@inproceedings{DBLP:conf/isit/YohananovEY19,
+  author    = {Lev Yohananov and
+               Yuval Efron and
+               Eitan Yaakobi},
+  title     = {Double and Triple Node-Erasure-Correcting Codes over Graphs},
+  booktitle = {{ISIT}},
+  pages     = {1582--1586},
+  publisher = {{IEEE}},
+  year      = {2019}
+}
+
+@inproceedings{DBLP:conf/podc/BachrachCDELP19,
+  author    = {Nir Bachrach and
+               Keren Censor{-}Hillel and
+               Michal Dory and
+               Yuval Efron and
+               Dean Leitersdorf and
+               Ami Paz},
+  title     = {Hardness of Distributed Optimization},
+  booktitle = {{PODC}},
+  pages     = {238--247},
+  publisher = {{ACM}},
+  year      = {2019}
+}
+
+@article{DBLP:journals/corr/abs-1905-10284,
+  author    = {Nir Bachrach and
+               Keren Censor{-}Hillel and
+               Michal Dory and
+               Yuval Efron and
+               Dean Leitersdorf and
+               Ami Paz},
+  title     = {Hardness of Distributed Optimization},
+  journal   = {CoRR},
+  volume    = {abs/1905.10284},
+  year      = {2019}
+}
+
+@article{DBLP:journals/corr/abs-1911-13294,
+  author    = {Alkida Balliu and
+               Sebastian Brandt and
+               Yuval Efron and
+               Juho Hirvonen and
+               Yannic Maus and
+               Dennis Olivetti and
+               Jukka Suomela},
+  title     = {Classification of distributed binary labeling problems},
+  journal   = {CoRR},
+  volume    = {abs/1911.13294},
+  year      = {2019}
+}
+
+@article{DBLP:journals/corr/abs-1812-00485,
+  author    = {Lev Yohananov and
+               Yuval Efron and
+               Eitan Yaakobi},
+  title     = {Double and Triple Node-Erasure-Correcting Codes over Graphs},
+  journal   = {CoRR},
+  volume    = {abs/1812.00485},
+  year      = {2018}
+}
+

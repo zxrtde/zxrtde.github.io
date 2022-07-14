@@ -1,0 +1,29 @@
+@import "../../../index.scss";
+@import "../main.scss";
+
+.publications-container {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  .filters {
+    margin: 0 auto;
+  }
+  .papers {
+    display: grid;
+    margin: 0 auto;
+  }
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .publications-container {
+    margin-right: 4em;
+    margin-left: 4em;
+  }
+}
+
+@media (max-width: 600px) {
+  .publications-container {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+}

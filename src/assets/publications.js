@@ -4,7 +4,7 @@ const publications = [
       "With Joakim Blikstad, Jan van den Brand, Sagnik Mukhopadhyay, Danupon Nanongkai",
     title:
       "Nearly Optimal Communication and Query Complexity of Bipartite Matching",
-    type: "working",
+    type: "conference",
     abstract: `We settle the complexities of the maximum-cardinality bipartite matching problem (BMM) up to
       poly-logarithmic factors in five models of computation: the two-party communication, AND query, OR query,
       XOR query, and quantum edge query models.
@@ -20,13 +20,13 @@ const publications = [
       
       Our algorithms and lower bounds follow from simple applications of known techniques such as cutting planes
       methods and set disjointness.`,
-    venue: "In submission",
+    venue: "FOCS 2022",
   },
   {
     authors:
       "With Simon Apers, Pawel Gawrychowski, Troy Lee , Sagnik Mukhopadhyay and Danupon Nanongkai",
     title: "Cut Query Algorithms with Star Contraction",
-    type: "working",
+    type: "conference",
     paper_link: "https://arxiv.org/abs/2201.05674",
     abstract: `We study the complexity of determining the edge connectivity of a simple graph with cut queries.
       We show that (i) there is a bounded-error randomized algorithm that computes edge connectivity with $O(n)$
@@ -49,7 +49,7 @@ const publications = [
       Finally, we demonstrate the use of star contraction outside of the cut query setting by designing a
       one-pass semi-streaming algorithm for computing edge connectivity in the vertex arrival setting. This
       contrasts with the edge arrival setting where two passes are required.`,
-    venue: "In submission",
+    venue: "FOCS 2022",
   },
   {
     authors: "With Michal Dory, Sagnik Mukhopadhyay, Danupon Nanongkai",
@@ -80,7 +80,7 @@ const publications = [
     title:
       "Double and Triple Node-Erasure-Correcting Codes Over Complete Graphs",
     type: "journal",
-    venue: "IEEE Trans. Inf. Theory 2020",
+    venue: "ISIT 2019, IEEE Trans. Inf. Theory 2020",
     paper_link: "https://ieeexplore.ieee.org/document/8985404/",
     abstract: `In this paper we study array-based codes over graphs for correcting multiple node failures. These
       codes have applications to neural networks, associative memories, and distributed storage systems. We
@@ -188,23 +188,6 @@ const publications = [
       distributed time complexity of binary labeling problems is decidable, not only in principle, but also in
       practice: there is a simple and efficient algorithm that takes the description of a binary labeling
       problem and outputs its distributed time complexity.`,
-  },
-  {
-    authors: "With Lev Yohananov and Eitan Yaakobi",
-    title: "Double and Triple Node-Erasure-Correcting Codes over Graphs",
-    type: "conference",
-    venue: "ISIT 2019",
-    paper_link: "https://ieeexplore.ieee.org/document/8849379",
-    abstract: `In this paper we study array-based codes over graphs for correcting multiple node failures.
-      These codes have applications to neural networks, associative memories, and distributed storage systems.
-      We assume that the information is stored on the edges of a complete undirected graph and a node failure is
-      the event where all the edges in the neighborhood of a given node have been erased. A code over graphs is
-      called $\\rho$-node-erasure-correcting if it allows to reconstruct the erased edges upon the failure of
-      any $\\rho$ nodes or less. We present a binary optimal construction for double-node-erasure correction
-      together with an efficient decoding algorithm, when the number of nodes is a prime number. Furthermore,
-      we extend this construction for triple-node-erasure-correcting codes when the number of nodes is a prime
-      number and two is a primitive element in $\\mathbb{Z}_n$ . These codes are at most a single bit away from
-      optimality.`,
   },
   {
     authors:

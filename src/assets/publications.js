@@ -5,6 +5,7 @@ const publications = [
     title:
       "Nearly Optimal Communication and Query Complexity of Bipartite Matching",
     type: "conference",
+    paper_link: "https://arxiv.org/abs/2208.02526",
     abstract: `We settle the complexities of the maximum-cardinality bipartite matching problem (BMM) up to
       poly-logarithmic factors in five models of computation: the two-party communication, AND query, OR query,
       XOR query, and quantum edge query models.

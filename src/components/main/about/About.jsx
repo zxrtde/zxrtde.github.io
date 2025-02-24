@@ -31,11 +31,8 @@ const About = () => {
               advisement of <strong>Prof. Toniann Pitassi</strong>.
             </p>
             <p>
-              My research interests broadly revolve around information
-              theoretical aspects of optimization. Specifically, I enjoy
-              thinking about optimization problems through the lens of
-              distributed computing, communication complexity and dynamic
-              computation.
+              My research interests revolve around theoretical computer science,
+              with a specific emphasis on the foundations of blockchains and related topics.
             </p>
           </motion.div>
         </div>

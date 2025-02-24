@@ -14,7 +14,7 @@ const publications = [
     in order to enjoy efficiency and adaptive security.
     We first establish that no consensus protocol can simultaneously be efficient, be adaptively secure, and use $O(\log n)$ bits of beacon entropy. 
     We then show this bound is tight and, in fact, a trilemma by presenting three consensus protocols that achieve any two of these three properties.`,
-  venue: In Submission,
+    venue: "In Submission",
   },
   {
     authors:
@@ -32,7 +32,7 @@ const publications = [
     Secondly, which cryptographic primitives are necessary and sufficient for the design of such protocols?
     This paper answers these questions: we provide a near complete characterization of the cryptography required,
     as well as the complexity of consensus protocols amidst fully-fluctuating participation of corrupt players.`,
-  venue: In Submission,
+    venue: "In Submission",
   },
   {
     authors:
@@ -51,7 +51,7 @@ const publications = [
       but also the stronger notion of a distributed randomness beacon.
       We also show that this is possible in a weaker communication model than previously considered,
       without the assumption of reliable broadcast or a public bulletin board.`,
-  venue: Eurocrypt 2025,
+    venue: "Eurocrypt 2025",
   },
   {
     authors:
@@ -79,7 +79,7 @@ const publications = [
       In particular, our results improve the state-of-the-art in bit complexity by at least two factors of $n$ and provide either
       early stopping (deterministic) or expected constant round complexity (randomized).
       We therefore provide fallback security for authenticated Byzantine agreement \\emph{for free} for $t_i \\leq n/4$.`,
-  venue: Eurocrypt 2025,
+    venue: "Eurocrypt 2025",
   },
   {
     authors:
@@ -93,7 +93,7 @@ const publications = [
     Our goal is to maintain an orientation $H$ of $G$ that keeps the discrepancy,
     defined as $\\max_{v \\in V} |\\deg_H^+(v) - \\deg_H^-(v)|$, small at all times.
     We present a simple algorithm and analysis for this problem with recourse based on cycles that simplifies and improves on a result of Gupta et al. [SODA '22].`,
-  venue: SOSA 2025,
+    venue: "SOSA 2025",
   },
   {
   	authors:
@@ -118,7 +118,7 @@ const publications = [
 		implementing optimal prover strategies in quantum interactive proofs, and decoding the Hawking radiation of black holes. 
 		Our framework for unitary complexity thus provides new avenues for studying the computational complexity of many natural
 		quantum information processing tasks.`,
-	venue: QIP 2024,Long Plenary Talk (3 papers out of 111),
+	  venue: "QIP 2024,Long Plenary Talk (3 papers out of 111)",
   },
   {
     authors:

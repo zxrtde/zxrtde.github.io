@@ -1,5 +1,101 @@
 const publications = [
   {
+    authors:
+      "With Joseph Bonneau, Benedikt Bunz, Miranda Christ",
+    title:
+      "How Much Public Randomness Do Modern Consensus Protocols Need?",
+    type: "conference",
+    paper_link:"https://eprint.iacr.org/2024/1794",
+    abstract: `Modern blockchain-based consensus protocols aim for efficiency (i.e., low communication and round complexity) 
+    while maintaining security against adaptive adversaries. 
+    These goals are usually achieved using a public randomness beacon to select roles for each participant.  
+    We examine to what extent this randomness is necessary.
+    Specifically, we provide tight bounds on the amount of entropy a Byzantine Agreement protocol must consume from a beacon 
+    in order to enjoy efficiency and adaptive security.
+    We first establish that no consensus protocol can simultaneously be efficient, be adaptively secure, and use $O(\log n)$ bits of beacon entropy. 
+    We then show this bound is tight and, in fact, a trilemma by presenting three consensus protocols that achieve any two of these three properties.`,
+  venue: In Submission,
+  },
+  {
+    authors:
+      "With Joachim Neu, Toniann Pitassi",
+    title:
+      "The Cryptograhy Needed For Sleepy Consensus",
+    type: "conference",
+    paper_link:"",
+    abstract: `The sleepy model of consensus [Pass, Shi 2017] is characterized by uncertainty 
+    regarding the participation rate of honest players throughout time.
+    Recent work (e.g., [Malkhi, Momose, Ren 2023]) in the sleepy model generalizes this uncertainty to corrupt players as well by considering the 
+    \\emph{growing} participation adversary, in which corrupt players may join the protocol as time progresses, 
+    so long as an honest majority is maintained. Such a model unveils a much more general question: 
+    To what extent can protocols remain secure amidst increasing and decreasing (henceforth, \\emph{fully-fluctuating}) participation of corrupt players? 
+    Secondly, which cryptographic primitives are necessary and sufficient for the design of such protocols?
+    This paper answers these questions: we provide a near complete characterization of the cryptography required,
+    as well as the complexity of consensus protocols amidst fully-fluctuating participation of corrupt players.`,
+  venue: In Submission,
+  },
+  {
+    authors:
+      "With Joseph Bonneau, Benedikt Bunz, Miranda Christ",
+    title:
+      "Good things come to those who wait: Dishonest-Majority Coin-Flipping Requires Delay Functions",
+    type: "conference",
+    paper_link:"https://eprint.iacr.org/2024/1711",
+    abstract: `We reconsider Cleve's famous 1986 impossibility result on coin-flipping without an honest majority.
+      Recently proposed constructions have circumvented this limit by using cryptographic delay functions.
+      We show that this is necessary: a (weak) notion of delay functions is in fact
+      \\emph{implied} by the existence of a protocol circumventing Cleve's impossibility.
+      However, such delay functions are weaker than those used in existing constructions.
+      We complete our result by showing an equivalence,
+      that these weaker delay functions are also sufficient to construct not just fair dishonest-majority coin-flipping protocols,
+      but also the stronger notion of a distributed randomness beacon.
+      We also show that this is possible in a weaker communication model than previously considered,
+      without the assumption of reliable broadcast or a public bulletin board.`,
+  venue: Eurocrypt 2025,
+  },
+  {
+    authors:
+      "With Daniel Collins, Jovan Komatovic",
+    title:
+      "Juggernaut: Efficient Crypto-Agnostic Byzantine Agreement",
+    type: "conference",
+    paper_link:"https://eprint.iacr.org/2024/1601",
+    abstract: `It is well known that a trusted setup allows one to solve the Byzantine agreement problem in the presence of $t<n/2$ corruptions,
+     bypassing the setup-free $t<n/3$ barrier.
+      Alas, the overwhelming majority of protocols in the literature have the caveat that their security crucially hinges on the security of the cryptography and setup, to the point where if the cryptography is broken, even a single corrupted party can violate the security of the protocol.
+      Thus these protocols provide higher corruption resilience ($n/2$ instead of $n/3$) for the price of increased assumptions. 
+      Is this trade-off necessary?\\
+
+      We further the study of \\emph{crypto-agnostic} Byzantine agreement among $n$ parties that answers this question in the negative.
+      Specifically, let $t_s$ and $t_i$ denote two parameters such that (1) $2t_i + t_s < n$, and (2) $t_i \\leq t_s < n/2$.
+      Crypto-agnostic Byzantine agreement ensures agreement among honest parties if
+      (1) the adversary is computationally bounded and corrupts up to $t_s$ parties, or
+      (2) the adversary is computationally unbounded and corrupts up to $t_i$ parties,
+      and is moreover given all secrets of all parties established during the setup.
+      We propose a compiler that transforms any pair of resilience-optimal Byzantine agreement protocols
+      in the authenticated and information-theoretic setting into one that is crypto-agnostic.
+      Our compiler has several attractive qualities, including using only $O(\\lambda n^2)$ bits over the two underlying Byzantine agreement protocols,
+      and preserving round and communication complexity in the authenticated setting.
+      In particular, our results improve the state-of-the-art in bit complexity by at least two factors of $n$ and provide either
+      early stopping (deterministic) or expected constant round complexity (randomized).
+      We therefore provide fallback security for authenticated Byzantine agreement \\emph{for free} for $t_i \\leq n/4$.`,
+  venue: Eurocrypt 2025,
+  },
+  {
+    authors:
+      "With Shyamal Patel, Cliff Stein",
+    title:
+      "A Simple Algorithm For Dynamic Carpooling with Recourse",
+    type: "conference",
+    paper_link:"https://arxiv.org/abs/2411.07553",
+    abstract: `We give an algorithm for the fully-dynamic carpooling problem with recourse: 
+    Edges arrive and depart online from a graph $G$ with $n$ nodes according to an adaptive adversary. 
+    Our goal is to maintain an orientation $H$ of $G$ that keeps the discrepancy,
+    defined as $\\max_{v \\in V} |\\deg_H^+(v) - \\deg_H^-(v)|$, small at all times.
+    We present a simple algorithm and analysis for this problem with recourse based on cycles that simplifies and improves on a result of Gupta et al. [SODA '22].`,
+  venue: SOSA 2025,
+  },
+  {
   	authors:
   		"With John Bostanci, Tony Metger, Alexander Poremba, Luowen Qian, Henry Yuen",
   	title:
@@ -22,7 +118,7 @@ const publications = [
 		implementing optimal prover strategies in quantum interactive proofs, and decoding the Hawking radiation of black holes. 
 		Our framework for unitary complexity thus provides new avenues for studying the computational complexity of many natural
 		quantum information processing tasks.`,
-	venue: "To be Submitted",
+	venue: QIP 2024,Long Plenary Talk (3 papers out of 111),
   },
   {
     authors:

@@ -1,6 +1,16 @@
 const publications = [
   {
     authors:
+      "With Ling Ren",
+    title:
+      "Lifeline: Optimal Byzantine Agreement Under Minimal Synchrony",
+    type: "conference",
+    paper_link:"https://ia.cr/2025/1318",
+    abstract: ``, // You mentioned you'll fill in the abstract later
+    venue: "In Submission",
+  },
+  {
+    authors:
       "With Ertem Nusret Tas",
     title:
       "Dynamically Available Common Subset",
@@ -42,19 +52,24 @@ const publications = [
     authors:
       "With Joachim Neu, Toniann Pitassi",
     title:
-      "The Cryptograhy Needed For Sleepy Consensus",
+      "Fully-Fluctuating Participation in Sleepy Consensus",
     type: "conference",
-    paper_link:"",
-    abstract: `The sleepy model of consensus [Pass, Shi 2017] is characterized by uncertainty 
-    regarding the participation rate of honest players throughout time.
-    Recent work (e.g., [Malkhi, Momose, Ren 2023]) in the sleepy model generalizes this uncertainty to corrupt players as well by considering the 
-    \\emph{growing} participation adversary, in which corrupt players may join the protocol as time progresses, 
-    so long as an honest majority is maintained. Such a model unveils a much more general question: 
-    To what extent can protocols remain secure amidst increasing and decreasing (henceforth, \\emph{fully-fluctuating}) participation of corrupt players? 
-    Secondly, which cryptographic primitives are necessary and sufficient for the design of such protocols?
-    This paper answers these questions: we provide a near complete characterization of the cryptography required,
-    as well as the complexity of consensus protocols amidst fully-fluctuating participation of corrupt players.`,
-    venue: "In Submission",
+    paper_link:"https://arxiv.org/abs/2508.08068",
+    abstract: `Proof-of-work allows Bitcoin to boast security amidst arbitrary fluctuations in participation
+     of miners throughout time, so long as, at any point in time, a majority of hash power is honest.
+     In recent years, however, the pendulum has shifted in favor of proof-of-stake-based consensus protocols.
+     There, the sleepy model is the most prominent model for handling fluctuating participation of nodes.
+     However, to date, no protocol in the sleepy model rivals Bitcoin in its robustness to drastic fluctuations
+     in participation levels, with state-of-the-art protocols making various restrictive assumptions.
+     In this work, we present a new adversary model, called external adversary.
+     Intuitively, in our model, corrupt nodes do not divulge information about their secret keys.
+     In this model, we show that protocols in the sleepy model can meaningfully claim to remain secure against
+     fully fluctuating participation, without compromising efficiency or corruption resilience.
+     Our adversary model is quite natural, and arguably naturally captures the process via which malicious
+     behavior arises in protocols, as opposed to traditional worst-case modeling.
+     On top of which, the model is also theoretically appealing,
+     circumventing a barrier established in a recent work of Malkhi, Momose, and Ren.`,
+    venue: "AFT 2025",
   },
   {
     authors:

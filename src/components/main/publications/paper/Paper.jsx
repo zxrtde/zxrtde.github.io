@@ -32,7 +32,9 @@ const Paper = ({ id, authors, title, link, abstract, venue }) => {
             <div className="paper-icons fs-5">
               <div className="paper-icons-float">
                 <a
-                  href="#"
+                  href="javascript:void(0)"
+                  role="button"
+                  aria-label="Expand paper details"
                   title="Expand"
                   onClick={(e) => {
                     e.preventDefault();

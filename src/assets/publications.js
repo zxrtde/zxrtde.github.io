@@ -17,7 +17,7 @@ const publications = [
     type: "conference",
     paper_link:"https://eprint.iacr.org/2025/016",
     abstract: `Internet-scale consensus protocols used by blockchains are designed
-     to remain operational in the presence of unexpected temporary crash faults (the so-called \emph{sleepy} model of consensus)
+     to remain operational in the presence of unexpected temporary crash faults (the so-called sleepy model of consensus)
       -- a critical feature for the latency-sensitive financial applications running on these systems. 
 
       However, their leader-based architecture, where a single block proposer is responsible for creating the block at each height,
@@ -46,7 +46,7 @@ const publications = [
     in order to enjoy efficiency and adaptive security.
     We first establish that no consensus protocol can simultaneously be efficient, be adaptively secure, and use $O(\log n)$ bits of beacon entropy. 
     We then show this bound is tight and, in fact, a trilemma by presenting three consensus protocols that achieve any two of these three properties.`,
-    venue: "In Submission",
+    venue: "AFT 2025",
   },
   {
     authors:

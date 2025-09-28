@@ -6,7 +6,9 @@ const publications = [
       "Lifeline: Optimal Byzantine Agreement Under Minimal Synchrony",
     type: "conference",
     paper_link:"https://ia.cr/2025/1318",
-    abstract: ``, // You mentioned you'll fill in the abstract later
+    abstract: `The synchrony model allows Byzantine Agreement (BA) protocols to be deterministic, tolerate minority
+faults, and achieve the asymptotically optimal $O(n)$ rounds, and $O(n^2)$ bits of communication where $n$ is the number of parties. 
+We study the deterministic BA problem in a model in which every communication link is either synchronous or partially synchronous. Our main result for this model is that feasibility implies optimality: For every $\\frac{n}{3}\\leq f<\\frac{n}{2}$, the minimal network conditions required for BA to be \\emph{solvable} against $f$ byzantine faults, are also sufficient for it to be solvable \\emph{optimally}, i.e., with $O(f)$ rounds and $O(f^2)$ communication. In particular, BA against minority byzantine faults can be solved when the synchronous links in the network form a mere \\emph{path} ($f$ synchronous links) as efficiently (up to constant factors) as when \\emph{all} communication links are synchronous ($\\Omega(f^2)$ synchronous links).`,
     venue: "In Submission",
   },
   {

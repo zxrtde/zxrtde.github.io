@@ -44,7 +44,7 @@ const publications = [
     We examine to what extent this randomness is necessary.
     Specifically, we provide tight bounds on the amount of entropy a Byzantine Agreement protocol must consume from a beacon 
     in order to enjoy efficiency and adaptive security.
-    We first establish that no consensus protocol can simultaneously be efficient, be adaptively secure, and use $O(\log n)$ bits of beacon entropy. 
+    We first establish that no consensus protocol can simultaneously be efficient, be adaptively secure, and use O(log n) bits of beacon entropy. 
     We then show this bound is tight and, in fact, a trilemma by presenting three consensus protocols that achieve any two of these three properties.`,
     venue: "AFT 2025",
   },

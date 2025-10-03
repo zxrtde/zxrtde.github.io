@@ -34,6 +34,9 @@ const About = () => {
               My research interests revolve around theoretical computer science,
               with a specific emphasis on the foundations of blockchains and related topics.
             </p>
+            <p>
+              My research is generously supported by a <a href="https://pbs.foundation/" target="_blank" rel="noopener noreferrer">PBS foundation</a> grant, and a <a href="https://x.com/cu_eth_research" target="_blank" rel="noopener noreferrer">Columbia-Ethereum</a> PhD fellowship.
+            </p>
           </motion.div>
         </div>
       </div>

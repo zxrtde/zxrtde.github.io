@@ -1,6 +1,6 @@
 import React from "react";
 import "./nav.scss";
-import CV from "../../../assets/Yuva_Efron_CV.pdf";
+import CV from "../../../assets/Yuval_Efron_CV.pdf";
 import Scrollspy from "react-scrollspy";
 
 const Nav = ({ mobileNav, setMobileNav }) => {

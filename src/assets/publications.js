@@ -1,14 +1,38 @@
 const publications = [
   {
     authors:
+      "With Joachim Neu, Ling Ren, Ertem Nusret Tas",
+    title:
+      "Optimal Good-Case Latency for Sleepy Consensus",
+    type: "conference",
+    paper_link:"https://eprint.iacr.org/2025/1856",
+    abstract: `In the context of Byzantine consensus problems such as Byzantine broadcast (BB) and Byzantine agreement (BA), the good-case setting aims to study the minimal possible latency of a BB or BA protocol under certain favorable conditions, namely the designated leader being correct (for BB), or all parties having the same input value (for BA).
+We provide a full characterization of the feasibility and impossibility of good-case latency, for both BA and BB, in the synchronous sleepy model.
+Surprisingly to us, we find irrational resilience thresholds emerging:
+$2$-round good-case BB is possible 
+if and only if 
+at all times,
+at least $\\frac{1}{\\varphi} \\approx 0.618$ fraction of the active parties
+are correct, where $\\varphi = \\frac{1+\\sqrt{5}}{2} \\approx 1.618$ is the golden ratio;
+$1$-round good-case BA is possible
+if and only if
+at least $\\frac{1}{\\sqrt{2}} \\approx 0.707$ fraction of the active parties are correct.`,
+    venue: "In Submission",
+  },
+  {
+    authors:
       "With Ling Ren",
     title:
       "Lifeline: Optimal Byzantine Agreement Under Minimal Synchrony",
     type: "conference",
     paper_link:"https://ia.cr/2025/1318",
     abstract: `The synchrony model allows Byzantine Agreement (BA) protocols to be deterministic, tolerate minority
-faults, and achieve the asymptotically optimal $O(n)$ rounds, and $O(n^2)$ bits of communication where $n$ is the number of parties. 
-We study the deterministic BA problem in a model in which every communication link is either synchronous or partially synchronous. Our main result for this model is that feasibility implies optimality: For every $\\frac{n}{3}\\leq f<\\frac{n}{2}$, the minimal network conditions required for BA to be solvable against $f$ byzantine faults, are also sufficient for it to be solvable optimally, i.e., with $O(f)$ rounds and $O(f^2)$ communication. In particular, BA against minority byzantine faults can be solved when the synchronous links in the network form a mere path ($f$ synchronous links) as efficiently (up to constant factors) as when all communication links are synchronous ($\\Omega(f^2)$ synchronous links).`,
+faults, and achieve the asymptotically optimal $O ( n )$ rounds, and $O ( n^2 )$ bits of communication where $n$ is the number of parties. 
+We study the deterministic BA problem in a model in which every communication link is either synchronous or partially synchronous. Our main result for this model is that feasibility implies optimality:
+ For every $\\frac{n}{3} \\leq f < \\frac{n}{2}$, the minimal network conditions required for BA to be solvable against $f$ byzantine faults, are also sufficient for it to be solvable optimally,
+  i.e., with $O ( f )$ rounds and $O ( f^2 )$ communication.
+   In particular, BA against minority byzantine faults can be solved when the synchronous links in the network form a mere path
+    ($f$ synchronous links) as efficiently (up to constant factors) as when all communication links are synchronous ($\\Omega ( f^2 )$ synchronous links).`,
     venue: "In Submission",
   },
   {

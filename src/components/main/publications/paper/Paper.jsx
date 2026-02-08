@@ -31,17 +31,14 @@ const Paper = ({ id, authors, title, link, abstract, venue }) => {
             </div>
             <div className="paper-icons fs-5">
               <div className="paper-icons-float">
-                <a
-                  href="javascript:void(0)"
-                  role="button"
+                <button
+                  type="button"
                   aria-label="Expand paper details"
                   title="Expand"
-                  onClick={(e) => {
-                    e.preventDefault();
-                  }}
+                  className="expand-btn"
                 >
                   <i className={`bx ${clicked ? "bx-minus" : "bx-plus"}`}></i>
-                </a>
+                </button>
                 {typeof link !== "undefined" && (
                   <a
                     href={link}

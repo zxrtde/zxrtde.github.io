@@ -17,7 +17,7 @@ are correct, where $\\varphi = \\frac{1+\\sqrt{5}}{2} \\approx 1.618$ is the gol
 $1$-round good-case BA is possible
 if and only if
 at least $\\frac{1}{\\sqrt{2}} \\approx 0.707$ fraction of the active parties are correct.`,
-    venue: "In Submission",
+    venue: "Eurocrypt 2026",
   },
   {
     authors:
@@ -64,6 +64,7 @@ We study the deterministic BA problem in a model in which every communication li
       "How Much Public Randomness Do Modern Consensus Protocols Need?",
     type: "conference",
     paper_link:"https://eprint.iacr.org/2024/1794",
+    video_link: "https://www.youtube.com/embed/vIK9EgIXGAw",
     abstract: `Modern blockchain-based consensus protocols aim for efficiency (i.e., low communication and round complexity) 
     while maintaining security against adaptive adversaries. 
     These goals are usually achieved using a public randomness beacon to select roles for each participant.  
@@ -81,6 +82,7 @@ We study the deterministic BA problem in a model in which every communication li
       "Fully-Fluctuating Participation in Sleepy Consensus",
     type: "conference",
     paper_link:"https://arxiv.org/abs/2508.08068",
+    video_link: "https://www.youtube.com/embed/gz4I2EsO8KI",
     abstract: `Proof-of-work allows Bitcoin to boast security amidst arbitrary fluctuations in participation
      of miners throughout time, so long as, at any point in time, a majority of hash power is honest.
      In recent years, however, the pendulum has shifted in favor of proof-of-stake-based consensus protocols.
@@ -190,6 +192,7 @@ We study the deterministic BA problem in a model in which every communication li
       "Nearly Optimal Communication and Query Complexity of Bipartite Matching",
     type: "conference",
     paper_link: "https://arxiv.org/abs/2208.02526",
+    video_link: "https://www.youtube.com/embed/jO5QKaXoGkQ",
     abstract: `We settle the complexities of the maximum-cardinality bipartite matching problem (BMM) up to
       poly-logarithmic factors in five models of computation: the two-party communication, AND query, OR query,
       XOR query, and quantum edge query models.

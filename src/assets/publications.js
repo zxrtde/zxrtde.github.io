@@ -1,6 +1,50 @@
 const publications = [
   {
     authors:
+      "With Ittai Abraham, Ling Ren",
+    title:
+      "The Latency Cost of Censorship Resistance",
+    type: "conference",
+    paper_link: "https://eprint.iacr.org/2025/2136",
+    abstract: `On the road to eliminating censorship from modern blockchain protocols,
+     recent work in consensus has explored protocol design choices that delegate the duty of block assembly away from a single consensus leader
+      and instead to multiple parties, referred to as includers. 
+    As opposed to the traditional leader-based approach,
+    which guarantees transaction inclusion in a block produced
+    by the next correct leader, the multiple includer approach
+    allows blockchain protocols to provide a strong censorship-resistance
+    property for users: A timely submitted transaction is guaranteed
+    to be included in the next confirmed block, regardless of the leader's behavior.
+    Such a guarantee, however, comes at the cost of 2 additional rounds of latency to block confirmation,
+    compared to the leader-based approach. Is this cost necessary?
+    
+    We introduce the \\emph{Censorship Resistant Byzantine Broadcast} (CRBB) problem,
+    a one-shot variant that distills the core functionality underlying the multiple-includer design paradigm.
+    We then provide a full characterization, both in synchrony and partial synchrony, of the achievable latency of CRBB
+    in executions with a correct leader, which is the most relevant case to practice.
+    Our main result is an inherent latency cost of two additional rounds compared to the classic Byzantine Broadcast (BB) problem.
+    For example, synchronous protocols for CRBB require 4 rounds whenever BB requires 2 rounds.
+    Similarly, up to a small constant in the resilience, partial synchrony protocols for CRBB require 5 rounds whenever BB requires 3 rounds.`,
+    venue: "SBC 2026",
+  },
+  {
+    authors:
+      "With Ittai Abraham, Sourav Das, Jovan Komatovic",
+    title:
+      "Forget-IT: Optimal Good-Case Latency For Information-Theoretic BFT",
+    type: "conference",
+    paper_link: "https://eprint.iacr.org/2026/355",
+    abstract: `The good-case latency of a consensus protocol measures the latency from block proposal by a consensus leader to decision,
+     in the case in which the leader is correct. It is arguably the efficiency metric most pertinent for discussing
+      the practical latency performance of consensus protocols. Well understood in the context of the \\emph{authenticated} setting,
+       with PBFT [Castro 99], Tendermint [Buchman 16] & Simplex [Chan, Pass 23] achieving the optimal good-case latency of 3 rounds,
+        significant gaps remain in the \\emph{unauthenticated} setting.
+         We present Forget-IT, an unauthenticated consensus protocol with optimal good-case latency of 3 rounds.
+          Furthermore, our protocol only requires constant persistent storage, and has $O(n^2)$ message complexity per view.`,
+    venue: "PODC 2026, SBC 2026",
+  },
+  {
+    authors:
       "With Joachim Neu, Ling Ren, Ertem Nusret Tas",
     title:
       "Optimal Good-Case Latency for Sleepy Consensus",

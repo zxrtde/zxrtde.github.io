@@ -149,7 +149,7 @@ We study the deterministic BA problem in a model in which every communication li
     title:
       "Good things come to those who wait: Dishonest-Majority Coin-Flipping Requires Delay Functions",
     type: "conference",
-    paper_link:"https://eprint.iacr.org/2024/1711",
+    paper_link: "https://eprint.iacr.org/2024/1711",
     abstract: `We reconsider Cleve's famous 1986 impossibility result on coin-flipping without an honest majority.
       Recently proposed constructions have circumvented this limit by using cryptographic delay functions.
       We show that this is necessary: a (weak) notion of delay functions is in fact
@@ -160,7 +160,7 @@ We study the deterministic BA problem in a model in which every communication li
       but also the stronger notion of a distributed randomness beacon.
       We also show that this is possible in a weaker communication model than previously considered,
       without the assumption of reliable broadcast or a public bulletin board.`,
-    venue: "Eurocrypt 2025",
+    venue: "Eurocrypt 2025, SBC 2025",
   },
   {
     authors:

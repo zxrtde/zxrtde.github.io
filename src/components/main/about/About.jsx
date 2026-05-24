@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import Pointing from "../../../assets/pointing.png";
+import AboutPhoto from "../../../assets/about-photo.png";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
             animate={{ x: "0%", opacity: 1 }}
             trasition={{ duration: 0.8, ease: "easeInOut" }}
           >
-            <img src={Pointing} className="img-fluid" alt="" />
+            <img src={AboutPhoto} className="img-fluid" alt="" />
           </motion.div>
           <motion.div
             className="text"

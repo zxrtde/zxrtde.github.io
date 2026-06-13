@@ -29,15 +29,20 @@ const About = () => {
               I am <strong>Yuval Efron</strong>, I recently finished my PhD at the department
               of computer science at Columbia University, under the marvelous
               advisement of <strong>Prof. Toniann Pitassi</strong>.
-              I recently joined <a href="https://ritual.net/" target="_blank" rel="noopener noreferrer">Ritual</a>, as a consensus researcher.
             </p>
+            <p>
+              My research interests revolve around theoretical computer science.
+            </p>
+            {/*
             <p>
               My research interests revolve around theoretical computer science,
               with a specific emphasis on the foundations of blockchains and related topics.
             </p>
+
             <p>
               My PhD research has been generously supported by a <a href="https://pbs.foundation/" target="_blank" rel="noopener noreferrer">PBS foundation</a> grant, and a <a href="https://x.com/cu_eth_research" target="_blank" rel="noopener noreferrer">Columbia-Ethereum</a> PhD fellowship.
             </p>
+            */}
           </motion.div>
         </div>
       </div>

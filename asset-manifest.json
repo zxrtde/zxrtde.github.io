@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.acb3ac1c.css",
-    "main.js": "/static/js/main.c2b93a05.js",
+    "main.js": "/static/js/main.8a82b176.js",
     "static/js/453.1ae0c651.chunk.js": "/static/js/453.1ae0c651.chunk.js",
     "static/media/profile.jpg": "/static/media/profile.77ba34814482cbe6b054.jpg",
     "static/media/about-photo.png": "/static/media/about-photo.b35b7a2a0d4ad2db22e0.png",
     "static/media/Yuval_Efron_CV.pdf": "/static/media/Yuval_Efron_CV.5247b7cbd7c2ea060550.pdf",
     "index.html": "/index.html",
     "main.acb3ac1c.css.map": "/static/css/main.acb3ac1c.css.map",
-    "main.c2b93a05.js.map": "/static/js/main.c2b93a05.js.map",
+    "main.8a82b176.js.map": "/static/js/main.8a82b176.js.map",
     "453.1ae0c651.chunk.js.map": "/static/js/453.1ae0c651.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acb3ac1c.css",
-    "static/js/main.c2b93a05.js"
+    "static/js/main.8a82b176.js"
   ]
 }

@@ -28,7 +28,8 @@ const About = () => {
             <p>
               I am <strong>Yuval Efron</strong>, I recently finished my PhD at the department
               of computer science at Columbia University, under the marvelous
-              advisement of <strong>Prof. Toniann Pitassi</strong>.
+              advisement of <a href="https://www.cs.columbia.edu/~toni/" target="_blank" rel="noopener noreferrer"><strong>Prof. Toniann Pitassi</strong></a>.
+              In Fall 2026, I will start as a postdoctoral member at the School of Math, <a href="https://www.ias.edu/math" target="_blank" rel="noopener noreferrer">Institute for Advanced Study</a>.
             </p>
             <p>
               My research interests revolve around theoretical computer science.

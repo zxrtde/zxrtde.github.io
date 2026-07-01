@@ -32,10 +32,6 @@ const About = () => {
               In Fall 2026, I will start as a postdoctoral member at the School of Math, <a href="https://www.ias.edu/math" target="_blank" rel="noopener noreferrer">Institute for Advanced Study</a>.
             </p>
             <p>
-              My research interests revolve around theoretical computer science.
-            </p>
-            {/*
-            <p>
               My research interests revolve around theoretical computer science,
               with a specific emphasis on the foundations of blockchains and related topics.
             </p>
@@ -43,7 +39,6 @@ const About = () => {
             <p>
               My PhD research has been generously supported by a <a href="https://pbs.foundation/" target="_blank" rel="noopener noreferrer">PBS foundation</a> grant, and a <a href="https://x.com/cu_eth_research" target="_blank" rel="noopener noreferrer">Columbia-Ethereum</a> PhD fellowship.
             </p>
-            */}
           </motion.div>
         </div>
       </div>

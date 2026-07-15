@@ -51,10 +51,10 @@ const Nav = ({ mobileNav, setMobileNav }) => {
         <li>
           <a
             onClick={(event) => {
-              window.open("mailto:Efronyuv@gmail.com", "_blank");
+              window.open("mailto:efronyuv@ias.com", "_blank");
               event.preventDefault();
             }}
-            href="mailto:Efronyuv@gmail.com"
+            href="mailto:efronyuv@ias.com"
             className="nav-link scrollto"
             target="_blank"
             rel="noopener noreferrer"

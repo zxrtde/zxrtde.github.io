@@ -1,6 +1,5 @@
 import React from "react";
 import "./nav.scss";
-import CV from "../../../assets/Yuval_Efron_CV.pdf";
 import Scrollspy from "react-scrollspy";
 
 const Nav = ({ mobileNav, setMobileNav }) => {
@@ -49,16 +48,6 @@ const Nav = ({ mobileNav, setMobileNav }) => {
             );
           })}
         </Scrollspy>
-        <li>
-          <a
-            href={CV}
-            target="_blank"
-            className="nav-link scrollto"
-            rel="noopener noreferrer"
-          >
-            <i className="bx bx-file-blank"></i> <span>CV</span>
-          </a>
-        </li>
         <li>
           <a
             onClick={(event) => {

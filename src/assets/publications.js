@@ -1,6 +1,32 @@
 const publications = [
   {
     authors:
+      "With Javier Nieto, Joachim Neu, Ling Ren",
+    title:
+      "Fully Fluctuating Sleepy Consensus from Minimal Assumptions",
+    type: "conference",
+    abstract: `Bitcoin's proof-of-work (PoW) based protocol is remarkable for how little it asks of its participants.
+    Not only can miners take breaks from work whenever they please, but it is almost unique in offering a path of contrition:
+    corrupt miners can reclaim honest status simply by resuming mining on the longest chain.
+    All the protocol asks for security is that honest miners hold the majority of computational power at any given time.
+    Analogous proof-of-stake (PoS) protocols, usually formalized via the sleepy model of Pass and Shi (2017),
+    have fallen short of matching this robustness.
+    In fact, sleepy consensus protocols in the plain PKI model must heavily restrict fluctuations in adversarial participation over time.
+    The recent work of Efron, Neu, and Pitassi (2025) enabled fully fluctuating participation in the sleepy model
+    by introducing the external adversary model.
+    Their protocol, however, relies on verifiable delay functions (VDFs), a strong cryptographic primitive that rather closely mimics PoW,
+    by assuming that the adversary cannot compute sequential work significantly faster than honest nodes.
+
+    In this work, we design a sleepy consensus protocol for fully fluctuating participation of an external adversary under honest majority,
+    from minimal assumptions: a public key infrastructure (PKI) and a verifiable random function (VRF).
+    In particular, we make no VDF or hardware assumptions.
+    Our key technique is graded wakeness, a novel primitive that allows nodes to form consistent opinions on which other nodes are awake.
+    We further extend our protocol to handle uncorruption, where corrupted nodes return to honesty,
+    for which we introduce a simple and clean formal framework in the sleepy model with an external adversary.`,
+    venue: "DISC 2026",
+  },
+  {
+    authors:
       "With Ittai Abraham, Ling Ren",
     title:
       "The Latency Cost of Censorship Resistance",
@@ -77,7 +103,7 @@ We study the deterministic BA problem in a model in which every communication li
   i.e., with $O ( f )$ rounds and $O ( f^2 )$ communication.
    In particular, BA against minority byzantine faults can be solved when the synchronous links in the network form a mere path
     ($f$ synchronous links) as efficiently (up to constant factors) as when all communication links are synchronous ($\\Omega ( f^2 )$ synchronous links).`,
-    venue: "In Submission",
+    venue: "DISC 2026",
   },
   {
     authors:

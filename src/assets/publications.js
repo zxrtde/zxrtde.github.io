@@ -95,7 +95,7 @@ const publications = [
         significant gaps remain in the \\emph{unauthenticated} setting.
          We present Forget-IT, an unauthenticated consensus protocol with optimal good-case latency of 3 rounds.
           Furthermore, our protocol only requires constant persistent storage, and has $O(n^2)$ message complexity per view.`,
-    venue: "PODC 2026, SBC 2026",
+    venue: "PODC 2026, SBC 2026; Invited to Distributed Computing special issue",
   },
   {
     authors:

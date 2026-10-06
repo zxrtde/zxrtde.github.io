@@ -51,7 +51,7 @@ const publications = [
     Our key technique is graded wakeness, a novel primitive that allows nodes to form consistent opinions on which other nodes are awake.
     We further extend our protocol to handle uncorruption, where corrupted nodes return to honesty,
     for which we introduce a simple and clean formal framework in the sleepy model with an external adversary.`,
-    venue: "DISC 2026",
+    venue: "DISC 2026; Invited to Distributed Computing special issue",
   },
   {
     authors:

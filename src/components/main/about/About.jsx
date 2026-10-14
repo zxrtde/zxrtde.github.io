@@ -33,7 +33,7 @@ const About = () => {
             </p>
             <p>
               My research interests revolve around theoretical computer science,
-              with a specific emphasis on the foundations of blockchains and related topics.
+              with a specific emphasis on the foundations of fault-tolerant distributed computing and related topics.
             </p>
 
             <p>

@@ -19,7 +19,9 @@ const Paper = ({ id, authors, title, link, abstract, venue }) => {
       >
         <div className="paper-button" onClick={() => setClicked(!clicked)}>
           <div className="paper-title">
-            <h3>{title}</h3>
+            <h3>
+              <MathJax inline dynamic>{title}</MathJax>
+            </h3>
           </div>
           <div className="paper-details">
             <div className="authors">
@@ -59,14 +61,14 @@ const Paper = ({ id, authors, title, link, abstract, venue }) => {
               if (index === 0) {
                 return (
                   <React.Fragment key={index}>
-                    <MathJax>{line}</MathJax>
+                    <MathJax dynamic>{line}</MathJax>
                   </React.Fragment>
                 );
               }
               return (
                 <React.Fragment key={index}>
                   <br />
-                  <MathJax>{line}</MathJax>
+                  <MathJax dynamic>{line}</MathJax>
                 </React.Fragment>
               );
             })}

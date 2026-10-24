@@ -35,7 +35,7 @@ const Paper = ({ id, authors, title, link, abstract, venue }) => {
               <div className="paper-icons-float">
                 <button
                   type="button"
-                  aria-label="Expand paper details"
+                  aria-label="Expand publication details"
                   title="Expand"
                   className="expand-btn"
                 >

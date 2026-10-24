@@ -3,23 +3,15 @@ import "./filter.scss";
 import { useState } from "react";
 
 const Filter = ({ setFilter }) => {
-  const [activeType, setActiveType] = useState("all");
+  const [activeType, setActiveType] = useState("paper");
   const filters = [
     {
-      text: "All",
-      type: "all",
+      text: "Papers",
+      type: "paper",
     },
     {
-      text: "Working Papers",
-      type: "working",
-    },
-    {
-      text: "Conference Papers",
-      type: "conference",
-    },
-    {
-      text: "Journal Papers",
-      type: "journal",
+      text: "Blog Posts",
+      type: "blog",
     },
   ];
 

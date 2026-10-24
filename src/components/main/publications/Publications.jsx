@@ -7,13 +7,11 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const Publications = () => {
-  const [filteredPapers, setfilteredPapers] = useState(publications);
+  const [filteredPapers, setfilteredPapers] = useState(() =>
+    publications.filter((paper) => paper.type === "paper")
+  );
 
   const setFilter = (type) => {
-    if (type === "all") {
-      setfilteredPapers(publications);
-      return;
-    }
     setfilteredPapers(publications.filter((paper) => paper.type === type));
   };
 
@@ -29,16 +27,16 @@ const Publications = () => {
 
         <motion.div layout className="papers">
           {filteredPapers.map(
-            ({ authors, title, type, paper_link, abstract, venue }, index) => {
+            ({ authors, title, paper_link, abstract, venue }) => {
               return (
                 <Paper
-                  id={index}
+                  id={title}
                   authors={authors}
                   title={title}
                   link={paper_link}
                   abstract={abstract}
                   venue={venue}
-                  key={index}
+                  key={title}
                 />
               );
             }

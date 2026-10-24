@@ -4,7 +4,7 @@ const publications = [
       "With Jovan Komatovic, Ling Ren",
     title:
       "Byzantine Broadcast in $\\widetilde{O}(n^2)$ Communication",
-    type: "conference",
+    type: "paper",
     paper_link: "https://eprint.iacr.org/2026/2504",
     abstract: `We present a deterministic $n$-party Byzantine broadcast protocol secure against $t<n$ faults,
     with communication complexity $O(n^2\\log^4(n)\\lambda)$ and $O(t)$ rounds (where $\\lambda$ is a security parameter),
@@ -15,7 +15,7 @@ const publications = [
     authors: "",
     title:
       "Settling The Round Complexity of Byzantine Agreement Against a Full-Information, Adaptive Adversary",
-    type: "working",
+    type: "paper",
     paper_link: "https://arxiv.org/abs/2607.14413",
     abstract: `We prove that every randomized synchronous Byzantine Agreement protocol in the
     full-information, strongly adaptive adversary model, secure against $t$ corrupt
@@ -44,7 +44,7 @@ const publications = [
       "With Javier Nieto, Joachim Neu, Ling Ren",
     title:
       "Fully Fluctuating Sleepy Consensus from Minimal Assumptions",
-    type: "conference",
+    type: "paper",
     abstract: `Bitcoin's proof-of-work (PoW) based protocol is remarkable for how little it asks of its participants.
     Not only can miners take breaks from work whenever they please, but it is almost unique in offering a path of contrition:
     corrupt miners can reclaim honest status simply by resuming mining on the longest chain.
@@ -70,7 +70,7 @@ const publications = [
       "With Ittai Abraham, Ling Ren",
     title:
       "The Latency Cost of Censorship Resistance",
-    type: "conference",
+    type: "paper",
     paper_link: "https://eprint.iacr.org/2025/2136",
     abstract: `On the road to eliminating censorship from modern blockchain protocols,
      recent work in consensus has explored protocol design choices that delegate the duty of block assembly away from a single consensus leader
@@ -98,7 +98,7 @@ const publications = [
       "With Ittai Abraham, Sourav Das, Jovan Komatovic",
     title:
       "Forget-IT: Optimal Good-Case Latency For Information-Theoretic BFT",
-    type: "conference",
+    type: "paper",
     paper_link: "https://eprint.iacr.org/2026/355",
     abstract: `The good-case latency of a consensus protocol measures the latency from block proposal by a consensus leader to decision,
      in the case in which the leader is correct. It is arguably the efficiency metric most pertinent for discussing
@@ -114,7 +114,7 @@ const publications = [
       "With Joachim Neu, Ling Ren, Ertem Nusret Tas",
     title:
       "Optimal Good-Case Latency for Sleepy Consensus",
-    type: "conference",
+    type: "paper",
     paper_link:"https://eprint.iacr.org/2025/1856",
     abstract: `In the context of Byzantine consensus problems such as Byzantine broadcast (BB) and Byzantine agreement (BA), the good-case setting aims to study the minimal possible latency of a BB or BA protocol under certain favorable conditions, namely the designated leader being correct (for BB), or all parties having the same input value (for BA).
 We provide a full characterization of the feasibility and impossibility of good-case latency, for both BA and BB, in the synchronous sleepy model.
@@ -134,7 +134,7 @@ at least $\\frac{1}{\\sqrt{2}} \\approx 0.707$ fraction of the active parties ar
       "With Ling Ren",
     title:
       "Lifeline: Optimal Byzantine Agreement Under Minimal Synchrony",
-    type: "conference",
+    type: "paper",
     paper_link:"https://ia.cr/2025/1318",
     abstract: `The synchrony model allows Byzantine Agreement (BA) protocols to be deterministic, tolerate minority
 faults, and achieve the asymptotically optimal $O ( n )$ rounds, and $O ( n^2 )$ bits of communication where $n$ is the number of parties. 
@@ -150,7 +150,7 @@ We study the deterministic BA problem in a model in which every communication li
       "With Ertem Nusret Tas",
     title:
       "Dynamically Available Common Subset",
-    type: "conference",
+    type: "paper",
     paper_link:"https://eprint.iacr.org/2025/016",
     abstract: `Internet-scale consensus protocols used by blockchains are designed
      to remain operational in the presence of unexpected temporary crash faults (the so-called sleepy model of consensus)
@@ -172,7 +172,7 @@ We study the deterministic BA problem in a model in which every communication li
       "With Joseph Bonneau, Benedikt Bunz, Miranda Christ",
     title:
       "How Much Public Randomness Do Modern Consensus Protocols Need?",
-    type: "conference",
+    type: "paper",
     paper_link:"https://eprint.iacr.org/2024/1794",
     video_link: "https://www.youtube.com/embed/vIK9EgIXGAw",
     abstract: `Modern blockchain-based consensus protocols aim for efficiency (i.e., low communication and round complexity) 
@@ -190,7 +190,7 @@ We study the deterministic BA problem in a model in which every communication li
       "With Joachim Neu, Toniann Pitassi",
     title:
       "Fully-Fluctuating Participation in Sleepy Consensus",
-    type: "conference",
+    type: "paper",
     paper_link:"https://arxiv.org/abs/2508.08068",
     video_link: "https://www.youtube.com/embed/gz4I2EsO8KI",
     abstract: `Proof-of-work allows Bitcoin to boast security amidst arbitrary fluctuations in participation
@@ -214,7 +214,7 @@ We study the deterministic BA problem in a model in which every communication li
       "With Joseph Bonneau, Benedikt Bunz, Miranda Christ",
     title:
       "Good things come to those who wait: Dishonest-Majority Coin-Flipping Requires Delay Functions",
-    type: "conference",
+    type: "paper",
     paper_link: "https://eprint.iacr.org/2024/1711",
     abstract: `We reconsider Cleve's famous 1986 impossibility result on coin-flipping without an honest majority.
       Recently proposed constructions have circumvented this limit by using cryptographic delay functions.
@@ -233,7 +233,7 @@ We study the deterministic BA problem in a model in which every communication li
       "With Daniel Collins, Jovan Komatovic",
     title:
       "Juggernaut: Efficient Crypto-Agnostic Byzantine Agreement",
-    type: "conference",
+    type: "paper",
     paper_link:"https://eprint.iacr.org/2024/1601",
     abstract: `It is well known that a trusted setup allows one to solve the Byzantine agreement problem in the presence of $t<n/2$ corruptions,
      bypassing the setup-free $t<n/3$ barrier.
@@ -261,7 +261,7 @@ We study the deterministic BA problem in a model in which every communication li
       "With Shyamal Patel, Cliff Stein",
     title:
       "A Simple Algorithm For Dynamic Carpooling with Recourse",
-    type: "conference",
+    type: "paper",
     paper_link:"https://arxiv.org/abs/2411.07553",
     abstract: `We give an algorithm for the fully-dynamic carpooling problem with recourse: 
     Edges arrive and depart online from a graph $G$ with $n$ nodes according to an adaptive adversary. 
@@ -275,7 +275,7 @@ We study the deterministic BA problem in a model in which every communication li
   		"With John Bostanci, Tony Metger, Alexander Poremba, Luowen Qian, Henry Yuen",
   	title:
   		"Unitary Complexity Theory and the Uhlmann Transformation Problem",
-  	type: "conference",
+    type: "paper",
   	paper_link:"https://arxiv.org/abs/2306.13073",
   	abstract: `State transformation problems such as compressing quantum information or breaking quantum commitments are fundamental quantum tasks.
 		However, their computational difficulty cannot easily be characterized using traditional complexity theory,
@@ -300,7 +300,7 @@ We study the deterministic BA problem in a model in which every communication li
       "With Joakim Blikstad, Jan van den Brand, Sagnik Mukhopadhyay, Danupon Nanongkai",
     title:
       "Nearly Optimal Communication and Query Complexity of Bipartite Matching",
-    type: "conference",
+    type: "paper",
     paper_link: "https://arxiv.org/abs/2208.02526",
     video_link: "https://www.youtube.com/embed/jO5QKaXoGkQ",
     abstract: `We settle the complexities of the maximum-cardinality bipartite matching problem (BMM) up to
@@ -324,7 +324,7 @@ We study the deterministic BA problem in a model in which every communication li
     authors:
       "With Simon Apers, Pawel Gawrychowski, Troy Lee , Sagnik Mukhopadhyay and Danupon Nanongkai",
     title: "Cut Query Algorithms with Star Contraction",
-    type: "conference",
+    type: "paper",
     paper_link: "https://arxiv.org/abs/2201.05674",
     abstract: `We study the complexity of determining the edge connectivity of a simple graph with cut queries.
       We show that (i) there is a bounded-error randomized algorithm that computes edge connectivity with $O(n)$
@@ -352,7 +352,7 @@ We study the deterministic BA problem in a model in which every communication li
   {
     authors: "With Michal Dory, Sagnik Mukhopadhyay, Danupon Nanongkai",
     title: "Distributed Weighted Min-Cut in Nearly-Optimal Time",
-    type: "conference",
+    type: "paper",
     venue: "STOC 2021",
     paper_link: "https://dl.acm.org/doi/10.1145/3406325.3451020",
     video_link: "https://www.youtube.com/embed/On9DX3TkEgo",
@@ -377,7 +377,7 @@ We study the deterministic BA problem in a model in which every communication li
     authors: "With Lev Yohananov and Eitan Yaakobi",
     title:
       "Double and Triple Node-Erasure-Correcting Codes Over Complete Graphs",
-    type: "journal",
+    type: "paper",
     venue: "ISIT 2019, IEEE Trans. Inf. Theory 2020",
     paper_link: "https://ieeexplore.ieee.org/document/8985404/",
     abstract: `In this paper we study array-based codes over graphs for correcting multiple node failures. These
@@ -394,7 +394,7 @@ We study the deterministic BA problem in a model in which every communication li
     authors:
       "With Bertie Ancona, Keren Censor-Hillel, Mina Dalirrooyfard and Virginia Vassilevska Williams",
     title: "Distributed Distance Approximation",
-    type: "conference",
+    type: "paper",
     venue: "OPODIS 2020",
     paper_link: "https://drops.dagstuhl.de/opus/volltexte/2021/13515/",
     abstract: `Diameter, radius and eccentricities are fundamental graph parameters, which are extensively
@@ -420,7 +420,7 @@ We study the deterministic BA problem in a model in which every communication li
       "With Alkida Balliu , Sebastian Brandt, Juho Hirvonen, Yannic Maus, Dennis Olivetti and Jukka Suomela",
     title:
       "Brief Announcement: Classification of Distributed Binary Labeling Problems",
-    type: "conference",
+    type: "paper",
     venue: "PODC 2020",
     paper_link: "https://dl.acm.org/doi/10.1145/3382734.3405703",
     abstract: `We present a complete classification of the deterministic distributed time complexity for a
@@ -436,7 +436,7 @@ We study the deterministic BA problem in a model in which every communication li
     authors: "With Ofer Grossman and Seri Khoury",
     title:
       "Beyond Alice and Bob: Improved Inapproximability for Maximum Independent Set in CONGEST",
-    type: "conference",
+    type: "paper",
     venue: "PODC 2020",
     paper_link: "https://dl.acm.org/doi/10.1145/3382734.3405702",
     video_link: "https://www.youtube.com/embed/orzUsqt4JZA",
@@ -462,7 +462,7 @@ We study the deterministic BA problem in a model in which every communication li
     authors:
       "With Alkida Balliu, Sebastian Brandt, Juho Hirvonen, Yannic Maus, Dennis Olivetti and Jukka Suomela",
     title: "Classification of Distributed Binary Labeling Problems",
-    type: "conference",
+    type: "paper",
     venue: "DISC 2020",
     paper_link: "https://drops.dagstuhl.de/opus/volltexte/2020/13095/",
     video_link: "https://www.youtube.com/embed/BbFAsexpLOc",
@@ -491,7 +491,7 @@ We study the deterministic BA problem in a model in which every communication li
     authors:
       "With Nir Bachrach, Keren Censor-Hillel, Michal Dory, Dean Leitersdorf and Ami Paz",
     title: "Hardness of Distributed Optimization",
-    type: "conference",
+    type: "paper",
     venue: "PODC 2019",
     paper_link: "https://dl.acm.org/doi/10.1145/3293611.3331597",
     abstract: `This paper studies lower bounds for fundamental optimization problems in the CONGEST model. We
@@ -513,6 +513,76 @@ We study the deterministic BA problem in a model in which every communication li
       approximation problems, as well as for exact computation of some central problems in $P$, such as maximum
       matching and max flow, we show that such constructions cannot be designed, by which we exemplify some
       limitations of this framework.`,
+  },
+  {
+    authors:
+      "With Ittai Abraham, Sourav Das, Jovan Komatovic, Alejandro Ranchal-Pedrosa, Gilad Stern",
+    title: "Two Round Information-Theoretic Chained BFT at $n=5f-1$",
+    type: "blog",
+    paper_link: "https://decentralizedthoughts.github.io/2026-07-12-fast-IT-BFT/",
+    abstract: `Signature-free chained BFT with two-round good-case block latency
+    at $n=5f-1$ for $f \\geq 2$.`,
+    venue: "Decentralized Thoughts",
+  },
+  {
+    authors:
+      "With Ittai Abraham, Sourav Das, Jovan Komatovic, Gilad Stern",
+    title: "Information-Theoretic Kuplex",
+    type: "blog",
+    paper_link: "https://decentralizedthoughts.github.io/2026-06-05-IT-Kuplex/",
+    abstract: `An information-theoretic Simplex/Kuplex variant with robust three-delay
+    good-case latency, using authenticated channels but no signatures.`,
+    venue: "Decentralized Thoughts",
+  },
+  {
+    authors: "With Ittai Abraham, Ling Ren",
+    title: "The latency cost of censorship resistance",
+    type: "blog",
+    paper_link:
+      "https://a16zfrontier.com/posts/article/latency-cost-censorship-resistance/",
+    abstract: `Why predictable transaction inclusion can cost two extra communication
+    rounds in Byzantine fault-tolerant consensus under partial synchrony.`,
+    venue: "A16Z Frontier",
+  },
+  {
+    authors: "With Ittai Abraham, Ling Ren",
+    title: "Latency cost of censorship resistance",
+    type: "blog",
+    paper_link:
+      "https://decentralizedthoughts.github.io/2026-04-23-latency-of-censorship-resistance/",
+    abstract: `A five-round good-case latency lower bound for censorship-resistant
+    consensus under partial synchrony when $n \\leq 5t-6$ and $t \\geq 4$.`,
+    venue: "Decentralized Thoughts",
+  },
+  {
+    authors: "With Ittai Abraham, Kartik Nayak, Ling Ren",
+    title: "Partial Synchrony variants",
+    type: "blog",
+    paper_link:
+      "https://decentralizedthoughts.github.io/2025-12-19-cc-under-harsh-ps/",
+    abstract: `How bounded, unbounded, and lossy partial synchrony affect the
+    communication complexity and liveness of Byzantine fault-tolerant protocols.`,
+    venue: "Decentralized Thoughts",
+  },
+  {
+    authors: "With Ittai Abraham, Kartik Nayak, Ling Ren",
+    title: "Concurrent 2-round and 3-round Simplex-style BFT",
+    type: "blog",
+    paper_link:
+      "https://decentralizedthoughts.github.io/2025-07-29-2-round-3-round-simplex/",
+    abstract: `Concurrent two- and three-round commit paths in Simplex-style BFT,
+    with lower good-case latency when fewer Byzantine faults occur.`,
+    venue: "Decentralized Thoughts",
+  },
+  {
+    authors: "With Ittai Abraham, Ling Ren",
+    title: "2-round BFT in Simplex style",
+    type: "blog",
+    paper_link:
+      "https://decentralizedthoughts.github.io/2025-07-18-two-round-Simplex/",
+    abstract: `A Simplex-style BFT protocol with two-round good-case commitment
+    for $n \\geq 5f+1$, with safety and liveness arguments.`,
+    venue: "Decentralized Thoughts",
   },
 ];
 

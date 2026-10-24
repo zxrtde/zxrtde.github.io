@@ -515,6 +515,16 @@ We study the deterministic BA problem in a model in which every communication li
       limitations of this framework.`,
   },
   {
+    authors: "With Jovan Komatovic, Ling Ren",
+    title: "Authenticated Broadcast in $\\widetilde O(n^{2.5})$ Communication",
+    type: "blog",
+    paper_link:
+      "https://decentralizedthoughts.github.io/2026-10-23-subcubic-broadcast/",
+    abstract: `An elementary deterministic broadcast protocol using digital
+    signatures and PKI to achieve subcubic communication for $t \\leq n-\\sqrt{n}$ faults.`,
+    venue: "Decentralized Thoughts",
+  },
+  {
     authors:
       "With Ittai Abraham, Sourav Das, Jovan Komatovic, Alejandro Ranchal-Pedrosa, Gilad Stern",
     title: "Two Round Information-Theoretic Chained BFT at $n=5f-1$",

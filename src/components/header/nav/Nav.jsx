@@ -49,19 +49,10 @@ const Nav = ({ mobileNav, setMobileNav }) => {
           })}
         </Scrollspy>
         <li>
-          <a
-            onClick={(event) => {
-              window.open("mailto:efronyuv@ias.com", "_blank");
-              event.preventDefault();
-            }}
-            href="mailto:efronyuv@ias.com"
-            className="nav-link scrollto"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="bx bx-envelope"></i>
-            <span>Contact</span>
-          </a>
+          <address className="contact-email">
+            <i className="bx bx-envelope" aria-hidden="true"></i>
+            <span>efronyuv [at] ias [dot] edu</span>
+          </address>
         </li>
       </ul>
     </div>

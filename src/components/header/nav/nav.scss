@@ -16,7 +16,8 @@
   }
 
   a,
-  a:focus {
+  a:focus,
+  .contact-email {
     display: flex;
     align-items: center;
     color: #a8a9b4;
@@ -27,10 +28,21 @@
   }
 
   a i,
-  a:focus i {
+  a:focus i,
+  .contact-email i {
     font-size: 24px;
     padding-right: 8px;
     color: #6f7180;
+  }
+
+  .contact-email {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    white-space: normal;
+
+    i { flex-shrink: 0; }
+    span { min-width: 0; }
   }
 
   a:hover,

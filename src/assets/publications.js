@@ -45,6 +45,7 @@ const publications = [
     title:
       "Fully Fluctuating Sleepy Consensus from Minimal Assumptions",
     type: "paper",
+    paper_link: "https://eprint.iacr.org/2026/1873",
     abstract: `Bitcoin's proof-of-work (PoW) based protocol is remarkable for how little it asks of its participants.
     Not only can miners take breaks from work whenever they please, but it is almost unique in offering a path of contrition:
     corrupt miners can reclaim honest status simply by resuming mining on the longest chain.

@@ -1,6 +1,23 @@
 const publications = [
   {
     authors:
+      "With Ittai Abraham, Jovan Komatovic, Alejandro Ranchal-Pedrosa",
+    title:
+      "Floor-IT: Information-Theoretic BFT in Partial Synchrony with Two Round Good Case Latency and Optimal Resilience",
+    type: "paper",
+    paper_link: "https://eprint.iacr.org/2026/1496",
+    abstract: `In the information-theoretic model, parties communicate over sender-authenticated point-to-point channels,
+    but use no digital signatures or other transferable cryptographic certificates; the adversary is otherwise computationally unbounded.
+    We present Floor-IT, an information-theoretic Byzantine agreement protocol for partial synchrony with a good-case latency of two rounds
+    that achieves the optimal resilience bound of $n = 5f - 1$ in this setting.
+
+    When the actual network delay after GST is at most $\\delta \\le \\Delta$, our protocol achieves a robust good-case latency of $2\\delta$.
+    The protocol proceeds in views and guarantees a worst-case view latency of at most $2\\Delta + 2\\delta$.
+    Moreover, each party requires only $O(1)$ words of persistent storage, and each view incurs $O(n^2)$ messages of $O(1)$ words each.`,
+    venue: "FC 2027",
+  },
+  {
+    authors:
       "With Jovan Komatovic, Ling Ren",
     title:
       "Byzantine Broadcast in $\\widetilde{O}(n^2)$ Communication",

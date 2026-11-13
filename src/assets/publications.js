@@ -183,7 +183,7 @@ We study the deterministic BA problem in a model in which every communication li
       instead leveraging a so-called dynamically available common subset (DACS) protocol -- the first of its kind in the sleepy model. 
       Additionally, our construction guarantees deterministic synchronization -- once an honest node confirms a block, 
       all other honest nodes do so within a constant time, thus addressing a shortcoming of many low-latency sleepy protocols.`,
-    venue: "In Submission",
+    venue: "Manuscript",
   },
   {
     authors:
@@ -311,7 +311,7 @@ We study the deterministic BA problem in a model in which every communication li
 		implementing optimal prover strategies in quantum interactive proofs, and decoding the Hawking radiation of black holes. 
 		Our framework for unitary complexity thus provides new avenues for studying the computational complexity of many natural
 		quantum information processing tasks.`,
-	  venue: "QIP 2024,Long Plenary Talk (3 papers out of 111)",
+	  venue: "QIP 2024, Long Plenary Talk (3 papers out of 111), ITCS 2026",
   },
   {
     authors:

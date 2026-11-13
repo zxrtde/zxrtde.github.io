@@ -292,7 +292,7 @@ We study the deterministic BA problem in a model in which every communication li
   	authors:
   		"With John Bostanci, Tony Metger, Alexander Poremba, Luowen Qian, Henry Yuen",
   	title:
-  		"Unitary Complexity Theory and the Uhlmann Transformation Problem",
+  		"Unitary Complexity and the Uhlmann Transformation Problem",
     type: "paper",
   	paper_link:"https://arxiv.org/abs/2306.13073",
   	abstract: `State transformation problems such as compressing quantum information or breaking quantum commitments are fundamental quantum tasks.

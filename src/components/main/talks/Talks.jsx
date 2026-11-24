@@ -1,4 +1,5 @@
 import React from "react";
+import { MathJax } from "better-react-mathjax";
 import "./talks.scss";
 import publications from "../../../assets/publications";
 
@@ -21,7 +22,7 @@ const Talks = () => {
                 </div>
                 <div className="talk-details">
                   <div className="title">
-                    <h4>{title}</h4>
+                    <h4><MathJax inline dynamic>{title}</MathJax></h4>
                   </div>
 
                   <div className="conference-link">

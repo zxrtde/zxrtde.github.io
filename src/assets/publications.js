@@ -23,6 +23,7 @@ const publications = [
       "Byzantine Broadcast in $\\widetilde{O}(n^2)$ Communication",
     type: "paper",
     paper_link: "https://eprint.iacr.org/2026/2504",
+    video_link: "https://www.youtube.com/embed/68ZZOMBYA30",
     abstract: `We present a deterministic $n$-party Byzantine broadcast protocol secure against $t<n$ faults,
     with communication complexity $O(n^2\\log^4(n)\\lambda)$ and $O(t)$ rounds (where $\\lambda$ is a security parameter),
     improving upon the seminal Dolev--Strong protocol from 1983.`,
